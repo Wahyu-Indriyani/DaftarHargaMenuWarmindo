@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran Kuliah</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.form-group {
+			margin-bottom: 20px;
+		}
+		
+		.label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		.input-field {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Pendaftaran Kuliah</h2>
+		<form>
+			<div class="form-group">
+				<label for="nama" class="label">Nama Lengkap:</label>
+				<input type="text" id="nama" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label for="npm" class="label">NPM:</label>
+				<input type="text" id="npm" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label for="prodi" class="label">Program Studi:</label>
+				<select id="prodi" class="input-field" required>
+					<option value="">Pilih Program Studi</option>
+					<option value="Teknik Informatika">Teknik Informatika</option>
+					<option value="Sistem Informasi">Sistem Informasi</option>
+					<option value="Teknik Elektro">Teknik Elektro</option>
+                    <option value="Teknik sipil">Teknik sipil</option>
+					<!-- tambahkan lebih banyak opsi program studi -->
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="email" class="label">Alamat Email:</label>
+				<input type="email" id="email" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label for="no_hp" class="label">No. Handphone:</label>
+				<input type="text" id="no_hp" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="button">Daftar</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
