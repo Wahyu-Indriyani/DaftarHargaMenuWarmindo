@@ -1,87 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Pendaftaran Kuliah</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f0f0f0;
-		}
-		
-		.container {
-			width: 80%;
-			margin: 40px auto;
-			background-color: #fff;
-			padding: 20px;
-			border: 1px solid #ddd;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		}
-		
-		.form-group {
-			margin-bottom: 20px;
-		}
-		
-		.label {
-			display: block;
-			margin-bottom: 10px;
-		}
-		
-		.input-field {
-			width: 100%;
-			padding: 10px;
-			margin-bottom: 20px;
-			border: 1px solid #ccc;
-		}
-		
-		.button {
-			background-color: #4CAF50;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-		}
-		
-		.button:hover {
-			background-color: #3e8e41;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<h2>Pendaftaran Kuliah</h2>
-		<form>
-			<div class="form-group">
-				<label for="nama" class="label">Nama Lengkap:</label>
-				<input type="text" id="nama" class="input-field" required>
-			</div>
-			<div class="form-group">
-				<label for="npm" class="label">NPM:</label>
-				<input type="text" id="npm" class="input-field" required>
-			</div>
-			<div class="form-group">
-				<label for="prodi" class="label">Program Studi:</label>
-				<select id="prodi" class="input-field" required>
-					<option value="">Pilih Program Studi</option>
-					<option value="Teknik Informatika">Teknik Informatika</option>
-					<option value="Sistem Informasi">Sistem Informasi</option>
-					<option value="Teknik Elektro">Teknik Elektro</option>
-                    <option value="Teknik sipil">Teknik sipil</option>
-					<!-- tambahkan lebih banyak opsi program studi -->
-				</select>
-			</div>
-			<div class="form-group">
-				<label for="email" class="label">Alamat Email:</label>
-				<input type="email" id="email" class="input-field" required>
-			</div>
-			<div class="form-group">
-				<label for="no_hp" class="label">No. Handphone:</label>
-				<input type="text" id="no_hp" class="input-field" required>
-			</div>
-			<div class="form-group">
-				<button type="submit" class="button">Daftar</button>
-			</div>
-		</form>
-	</div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="menu.html"> Menu </a></li>
+                <li><a href="http://wa.me/+62"> Contacts </a></li>
+                <li><a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>  
+        <img src="img/pka.png" width="100%" height="600">
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3> Warmindo </h3>
+                <p> Kami telah membuka wramindo P.K.A dengan kurung waktu kurang lebih 5 tahun </p>
+                <br>
+                <p>© 2019 Warmindo Putri Kecil Ayah</p>
+            </div>
+
+            <div class="footer-section browse">
+                <h3> Browser </h3>
+                    <ul>
+                    <li> <a href="#home"> Home </a></li>
+                    <li> <a href="#about-us"> Menu </a></li>
+                    <li> <a href="#products"> Contacts </a></li>
+                    <li> <a href="#recipes"> Location </a></li>
+                    <li> <a href="#"> Kritik & Saran </a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section address">
+                <h3> Address </Address></h3>
+                <address> Jl. Pramuka </address>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>

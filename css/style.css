@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Baloo 2", display;
+    scroll-behavior: smooth;
+  }
+  
+  :root{
+    --bg-color :#B5C0D0;
+    --second-bg-color :#ff3131;
+    --main-color : rgb(220, 215, 215);
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #ff3131;
+    width: 100%;
+    padding: 25px 10px;
+    top: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0 5px 0 ;
+    align-content: center;
+}
+   nav ul li {
+    margin: 0 10px;
+}
+  nav ul li a {
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+}
+ /* main css  */
+
+  /* footer css */
+  
+  footer{
+    bottom: 0;
+    background-color: #ff3131;
+    color: black;
+    padding: 20px 20px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-section {
+     margin-right: 30px;
+  }
+  .footer-section h3 {
+    font-size: 1.2em;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .footer-section.address address {
+     font-style: normal;
+  }
