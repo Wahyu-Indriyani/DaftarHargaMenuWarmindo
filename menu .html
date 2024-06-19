@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Menu </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
    
 </head>
 
 <style> 
-    
-
     *{
         margin: 0;
         padding: 0;
@@ -28,9 +26,9 @@
         padding: 0;
     }
    
-  main img{
-    width: 100%;
-  }
+    main img{
+        width: 100%;
+    }
     .container-sidebar{
         position: fixed;
         top: 130px;
@@ -53,8 +51,8 @@
     }
     .fas{
         position: relative;
-        width: 70px;
-        height: 100px;
+        width: 60px;
+        height: 80px;
         top: 14px;
         font-size: 20px;
         text-align: center;
@@ -64,15 +62,14 @@
         top: 12px;
         margin-left: 10px;
     }
-    a:hover{
+    .container-sidebar a:hover{
         background-color: rgb(225, 215, 144);
     }
-    nav:hover{
+    .container-sidebar:hover{
         width: 280px;
         transition: all 0.5s ease;
     }
     
-
     .grid{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -88,7 +85,7 @@
         border-radius: 20px;
         text-align: center;
         background: papayawhip;
-        width: 300px;
+        width: 290px;
         transition: transform;
     }
     .grid > article img{
@@ -99,13 +96,13 @@
         transform: rotate(15deg);
     }
 
-    @media (max-width:1000px){
+    @media (max-width:800px){
         .grid{
             grid-template-columns:repeat(2,1fr);
         }
     }
 
-    @media (max-width : 500px){
+    @media (max-width : 400px){
         .grid{
             grid-template-columns: repeat(1,1fr); 
         }
@@ -115,49 +112,6 @@
         width: 100vw;
         min-height: 80vh;
     }
-    /* footer {
-    bottom: 0;	
-    width: 100%;
-    background-color: papayawhip; 
-    color: #000000; 
-	justify-content: space-between;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
-
-  .footer-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-section {
-     margin-right: 30px;
-  }
-  .footer-section h3 {
-    font-size: 1.2em;
-  }
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  .footer-section ul li a {
-    color: black;
-    text-decoration: none;
-  }
-  .footer-section.browser li a:hover {
-    color: rgb(126, 45, 43);
-  }
-  .footer-section.address address {
-     font-style: normal;
-  } */
-    /* .sidebar{
-        display: block;
-        width: 25%;
-        margin: 10px;
-        background-color: #ffff;
-    }
-     */
 
 </style>
 
@@ -170,37 +124,23 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Menu </a></li>
+                <li><a href="index.php"> Home </a></li>
+                <li><a href="menu .html"> Menu </a></li>
                 <li><a href="http://wa.me/+6282326193904"> Contacts </a></li>
                 <li><a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- <header>
-        <div class="logo">
-            <img src="img/logo .png">
-        </div>
-        <article>
-            <ul>
-                <li><a href="index.php"> Home </a></li>
-                <li><a href="PRICELIST.html"> Menu </a></li>
-                <li><a href="http://wa.me/+6282326193904"> Contacts </a></li>
-                <li><a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
-            </ul>
-        </article>
-    </header> -->
-
     <main>
     <nav class="container-sidebar">
         <ul>
-            <!-- <li>
+            <li>
                 <a href="#" class="logo">
-                    <img src="img/LOGO .png" alt="">
+                    <img src="img/logo.png" alt="">
                     <span class="nav-item"> WARMINDO <br>  Putri Kecil Ayah </span>
                 </a>
-            </li> -->
+            </li>
             <li> <a href=" #Makanan ">
                 <i class="fas fa-utensils"> </i>
                 <span class="nav-item"> Aneka Indomie </span>
@@ -545,10 +485,10 @@
                 <h3> Browser </h3>
                     <ul>
                         <li> <a href="index.php"> Home </a></li> 
-                        <li> <a href="#"> Menu </a></li>
+                        <li> <a href="menu .html"> Menu </a></li>
                         <li> <a href="wa.me/+6282326193904"> Contacts </a></li>
                         <li> <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
-                        <li> <a href="kritiksaran.php"> Kritik & Saran </a></li>
+                        <!-- <li> <a href="kritiksaran.php"> Kritik & Saran </a></li> -->
                 </ul>
             </div>
 
@@ -558,28 +498,6 @@
             </div>
     </footer>
 
-    <!-- <footer>
-        <div class="footer-container">
-            <div class="footer-section about">
-                <h3> Warmindo </h3>
-                <p> &copy; 2024 Warmindo Putri Kecil Ayah</p>
-            </div>
-
-            <div class="footer-section browser">
-                <h3> Browser </h3>
-                    <ul>
-                        <li> <a href="index.php"> Home </a></li> 
-                        <li> <a href="#"> Menu </a></li>
-                        <li> <a href="wa.me/+6282326193904"> Contacts </a></li>
-                        <li> <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
-                        <li> <a href="kritiksaran.php"> Kritik & Saran </a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section address">
-                <h3> Address </h3> 
-                <p> Jl. Pramuka </p>
-            </div>
-    </footer> -->
 </body>
+</html> 
 

@@ -13,7 +13,7 @@
 <body>
     <main>
         <div class="home-picture">
-            <img src="img/home.png" width="100%">
+            <img src="img/home.png">
         </div>
 
         <div class="menu-container">

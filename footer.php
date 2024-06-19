@@ -18,10 +18,10 @@
                 <h3> Layanan </h3>
                     <ul>
                         <li> <a href="index.php"> Home </a></li> 
-                        <li> <a href="menu.html"> Menu </a></li>
+                        <li> <a href="menu .html"> Menu </a></li>
                         <li> <a href="wa.me/+6282326193904"> Contacts </a></li>
                         <li> <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
-                        <li> <a href="kritiksaran.php"> Kritik & Saran </a></li>
+                        <!-- <li> <a href="kritiksaran.php"> Kritik & Saran </a></li> -->
                 </ul>
             </div>
 

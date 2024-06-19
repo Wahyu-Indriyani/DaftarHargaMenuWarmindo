@@ -47,7 +47,7 @@ header nav ul li a:hover {
   height: auto;
 }
 
-/* ini kumpulan css main */
+/* main on index */
 
 .menu-container {
   text-align: center;
@@ -106,7 +106,6 @@ header nav ul li a:hover {
   }
 }
 
-
 /* Footer Styles */
 footer {
   bottom: 0;	
@@ -119,7 +118,7 @@ footer {
 }
 
 .footer-container {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -139,7 +138,7 @@ footer {
   text-decoration: none;
 }
 .footer-section.browser li a:hover {
-    color:(126, 45, 43);
+    color:rgb(126, 45, 43);
 }
 .footer-section.address address {
   font-style: normal;
@@ -181,9 +180,13 @@ footer {
   background-color: #218838;
 }
 
-/* Styles for Thank You Section */
-.content-thankyou{
+ /* Styles for Thank You Section */
+ .content-thankyou{
   text-align: center;
+  background-color: #fff;
+  padding : 20px;
+  margin buttom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .content-thankyou  p{
