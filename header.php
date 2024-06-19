@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="logo-container">
             <img src="img/logo.png">
         </div>
         <nav>
