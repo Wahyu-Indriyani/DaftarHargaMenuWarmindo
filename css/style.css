@@ -1,12 +1,19 @@
 /* Header Styles */
 header {
-  display: flex;
   flex-direction: column;
+  font-family: "poppins";
   align-items: center;
   background-color: papayawhip;
   color: #000000;
   padding: 10px 0;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  /* -webkit-mask-image: linear-gradient(rgb(249, 219, 175) 85%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgb(249, 219, 175) 85%, rgba(0, 0, 0, 0)); */
 }
 
 header nav ul {
@@ -17,8 +24,13 @@ header nav ul {
   justify-content: center;
 }
 
+header img {
+  width: 150px;
+  height: auto;
+}
+
 header nav ul li {
-  margin: 0 10px;
+  margin: 0 20px;
   justify-content: center;
 }
 
@@ -33,8 +45,9 @@ header nav ul li a:hover {
 }
 
 /* logo on header */
-.logo-container{
+.logo-container {
   display: flexbox;
+  object-fit: contain;
   width: 10%;
   height: auto;
   justify-content: center;
@@ -42,7 +55,7 @@ header nav ul li a:hover {
 }
 
 /* home-pisture on index */
-.home-picture img{
+.home-picture img {
   width: 100%;
   height: auto;
 }
@@ -97,24 +110,27 @@ header nav ul li a:hover {
   }
 
   .menu-items {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .menu-item {
-      width: 80%;
+    width: 80%;
   }
 }
 
 /* Footer Styles */
 footer {
-  bottom: 0;	
+  bottom: 0;
   width: 100%;
-  background-color: papayawhip; 
-  color: #000000; 
+  height: auto;
+  padding: 10px;
+  background-color: papayawhip;
+  color: #000000;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .footer-container {
@@ -138,10 +154,26 @@ footer {
   text-decoration: none;
 }
 .footer-section.browser li a:hover {
-    color:rgb(126, 45, 43);
+  color: rgb(126, 45, 43);
 }
 .footer-section.address address {
   font-style: normal;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+.social-icons li {
+  display: inline;
+  margin: 0 10px;
+}
+.social-icons a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social-icons a:hover {
+  color: rgb(126, 45, 43);
 }
 
 /* Styles for Kritik Saran Form Section */
@@ -178,17 +210,4 @@ footer {
 
 .content-form button:hover {
   background-color: #218838;
-}
-
- /* Styles for Thank You Section */
- .content-thankyou{
-  text-align: center;
-  background-color: #fff;
-  padding : 20px;
-  margin buttom: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.content-thankyou  p{
-  margin: 20px 0;
 }
