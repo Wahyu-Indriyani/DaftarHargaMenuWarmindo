@@ -22,6 +22,7 @@
                          <a href="menu.html"> Menu </a>
                          <a href="wa.me/+6282326193904"> Contacts </a>
                          <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a>
+                         <a href="kritiksaran.php"> Kiritik & Saran </a>
                 </ul>
             </div>
             <br>

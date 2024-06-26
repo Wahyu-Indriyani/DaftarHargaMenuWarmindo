@@ -134,7 +134,7 @@ footer {
 }
 
 .footer-container {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -198,16 +198,48 @@ footer {
   padding: 10px;
   margin-top: 5px;
 }
-
+/* Button Styles */
 .content-form button {
-  padding: 10px;
-  margin-top: 20px;
+  padding: 10px 20px;
   background-color: #28a745;
   color: #fff;
   border: none;
-  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .content-form button:hover {
   background-color: #218838;
+}
+
+.content-thankyou button {
+padding: 10px 20px;
+background-color: #28a745;
+color: #fff;
+border: none;
+text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+text-align: center;
+}
+
+.content-thankyou button:hover {
+background-color: #218838;
+}
+
+/* Styles for Thank You Section */
+.content-thankyou{
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding : 20px;
+}
+
+.content-thankyou  p{
+  margin: 20px 0;
 }
