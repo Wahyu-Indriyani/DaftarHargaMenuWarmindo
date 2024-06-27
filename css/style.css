@@ -86,6 +86,11 @@ header nav ul li a:hover {
   text-align: center;
   width: 200px;
   height: 80%;
+  transition: transform;
+}
+
+.menu-item :hover {
+  transform: scale(1.5);
 }
 
 .menu-item img {
@@ -159,20 +164,21 @@ footer {
 .footer-section.address address {
   font-style: normal;
 }
-.social-icons {
+
+.footer-section-social-icons {
   list-style: none;
-  padding: 0;
+  padding: 10px;
 }
-.social-icons li {
+.footer-section-social-icons li {
   display: inline;
   margin: 0 10px;
 }
-.social-icons a {
+.footer-section-social-icons a {
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.social-icons a:hover {
+.footer-section-social-icons a:hover {
   color: rgb(126, 45, 43);
 }
 
@@ -215,31 +221,31 @@ footer {
 }
 
 .content-thankyou button {
-padding: 10px 20px;
-background-color: #28a745;
-color: #fff;
-border: none;
-text-decoration: none;
-display: inline-block;
-margin-top: 10px;
-text-align: center;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .content-thankyou button:hover {
-background-color: #218838;
+  background-color: #218838;
 }
 
 /* Styles for Thank You Section */
-.content-thankyou{
+.content-thankyou {
   max-width: 500px;
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
-  padding : 20px;
+  padding: 20px;
 }
 
-.content-thankyou  p{
+.content-thankyou p {
   margin: 20px 0;
 }

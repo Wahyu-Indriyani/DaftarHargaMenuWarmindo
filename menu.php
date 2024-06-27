@@ -196,30 +196,8 @@
     }
 </style>
 
-
 <body>
-    <!-- <header>
-        <div class="logo">
-            <img src="img/logo.png">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.php"> Home </a></li>
-                <li><a href="menu .html"> Menu </a></li>
-                <li><a href="http://wa.me/+6282326193904"> Contacts </a></li>
-                <li><a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
-                <li>    
-                    <div id="cart-container">
-                        <p><b>Shopping Cart</b></p><br>
-                        <ul id="cart-items"></ul>
-                        <p id="total-price"><b>Total: Rp.0</b></p>
-                        <button id="checkout">Checkout</button>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header> -->
-
+    
     <header>
         <div id="cart-container">
             <p><b>Shopping Cart</b></p><br>
@@ -336,7 +314,7 @@
                     </div>
                 </article>  
                 <article>
-                    <img src="img/dendeng balado .crdownload" width="300px" height="300px">
+                    <img src="img/Desain tanpa judul.png" width="300px" height="300px">
                     <div class="konten">
                         <p>Indomie Dendeng Balado <br>Rp.12.000<br>
                         <span>Aneka Indomie</span></p>
@@ -615,44 +593,10 @@
         <h2><center>Detail Pesanan Anda</center></h2><br>
         <ul id="modal-cart-items"></ul><br>
         <p id="modal-total-price"><b>Total: Rp.0</b></p><br>
-        <button id="checkout2"><i class='fab fa-cc-visa' style='font-size:48px;color:black'></i></i> <i class="fa fa-credit-card" style="font-size:48px;color:black"></i>
+        <button id="checkout2"><i class="fa-solid fa-cash-register" style="font-size:48px;color:black"></i>
             <br></button>
     </div>
 </div>
-
-    <!-- <footer>
-        <div class="footer-container">
-            <div class="footer-section about">
-                <h3> Warmindo </h3><br>
-                <p> &copy; 2024 Warmindo Putri Kecil Ayah</p>
-            </div>
-
-            <div class="footer-section browser">
-                <h3> Browser </h3><br>
-                    <ul>
-                         <a href="index.php"> Home </a>
-                         <a href="menu .html"> Menu </a>
-                         <a href="wa.me/+6282326193904"> Contacts </a>
-                         <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a>
-                </ul>
-            </div>
-            <br>
-
-            <div class="social-icons">
-                <h3> Social Media </h3><br>
-                <ul>
-                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section address">
-                <h3> Address </h3> 
-                <p> Jl. Ringroad Selatan, Kragilan, Tamanan, </p>
-                <p> Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191 </p>
-            </div>
-    </footer> -->
 
     <?php 
         include 'footer.php'; 

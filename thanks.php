@@ -53,7 +53,26 @@
                 </html>
             ';
         } else {
-            echo "<h2> <center> Form tidak valid. </center> </h2>";
+            echo '
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Terima Kasih</title>
+                <link rel="stylesheet" href="css/styles.css"> 
+                </head>
+                <body>
+                    <main>
+                        <section id="thank-you" class="content-thankyou">
+                            <h2> <center> Form tidak valid. </center> </h2>
+                            <p> Silahkan Coba Lagi. </p>
+                            <button type="button" onclick="window.location.href=\'index.php\'"> Back to Home </button>
+                        </section>
+                    </main>
+                </body>
+                </html>
+            ';
         }
     }
 

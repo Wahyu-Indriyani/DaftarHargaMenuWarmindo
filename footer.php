@@ -18,16 +18,16 @@
             <div class="footer-section browser">
                 <h3> Browser </h3><br>
                     <ul>
-                         <a href="index.php"> Home </a>
-                         <a href="menu.html"> Menu </a>
-                         <a href="wa.me/+6282326193904"> Contacts </a>
-                         <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a>
-                         <a href="kritiksaran.php"> Kiritik & Saran </a>
+                        <li><a href="index.php"> Home </a></li>
+                        <li> <a href="menu.html"> Menu </a></li>
+                        <li> <a href="wa.me/+6282326193904"> Contacts </a></li>
+                        <li> <a href="https://maps.app.goo.gl/n6ezXGY3Ce9C9AES9"> Location </a></li>
+                        <li> <a href="kritiksaran.php"> Kiritik & Saran </a></li>
                 </ul>
             </div>
             <br>
 
-            <div class="social-icons">
+            <div class="footer-section-social-icons">
                 <h3> Social Media </h3><br>
                 <ul>
                     <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
